@@ -1,0 +1,473 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: relative;
+}
+.brandname{
+    font-size: 18px;
+    color: #fff;
+    font-family: "COMIC Sans ms","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+#title {
+    padding-bottom: 100px;
+}
+.title{
+    margin: 50px 0 0;
+    background: url(http://omg7uaus7.bkt.clouddn.com/1.jpg) ;
+    color: ivory;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.title a{
+    font-size: 10px;
+    font-weight: bold;
+}
+.title #contact{
+    margin-right: 10px;
+}
+.title h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.title p{
+    font-size: 16px;
+}
+#projects {
+    position: relative;
+  padding-top: 50px;
+  margin-top: -50px;
+}
+#projects a{
+    color:#000;
+}
+#projects a:hover {
+    color: gray;
+}
+#projects img {
+    width:80%;
+    height: 80%;
+    margin: 5px auto;
+}
+#projects .pages #overview img{
+    width:80%;
+    height: 80%;
+    margin: 5px auto;
+}
+.project{
+    background-color: #eee;
+    padding: 5px 0;
+}
+/*.project h2, p{
+    text-align: center;
+    /*color: #0059b2;*/
+}*/
+.project .items{
+    padding: 10px 0;
+}
+.project #tab-list{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 35px;
+   
+}
+.project #tab-list li {
+    width: 98px;
+    font-size: 15px;
+}
+.project h2{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.pages .page{
+    margin-top: 10px;
+}
+.pages .page h4{
+    font-size: 10px;
+    font-weight: bold;
+}
+.pages .page p{
+    font-size: 6px;
+}
+.pages .page .list, .list2{
+    line-height: 18px;
+    font-size: 4px;
+}
+.pages .page .list2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*.pages .page .list2{
+    height: 60px;
+}*/
+.pages .page .list2 ul{
+    padding-top: 5px;
+}
+.pages .page h4, p{
+    text-align: center;
+}
+.pages .page p.link{
+    text-align: left;
+    margin-top:10px;
+    margin-left: 20px;
+}
+.pages a{
+    text-decoration: none;
+}
+.pages .page .text{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pages .film-info{
+    background-color: #eee;
+}
+#skills {
+    position: relative;
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.skills h2{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.skills .skill-text div{
+    font-size: 4px;
+}
+.skills .skill-text p{
+    text-align: left;
+    font-size: 6px;
+    font-weight: normal;
+    line-height: 28px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.foot{
+    text-align: center;
+    padding: 20px 20px 10px;
+     background: url(1.jpg) ;
+}
+.foot p{
+    color: #eee;
+    font-size: 15px;
+}
+.foot .pull {
+    position: absolute;
+    right:0;
+    bottom:0;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+.foot a{
+    text-decoration: none;
+    color: #fff;
+}
+.foot a:hover{
+    color: rgb(0, 0, 0);;
+    text-decoration: underline;
+}
+.about{
+    background-color: #eee;
+    padding-bottom: 20px;
+}
+.about h2{
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.about h2, h3, p{
+    text-align: center;
+}
+.about .about-content{
+    margin-bottom: 20px;
+}
+.about h3{
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.about p{
+    font-size: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.about #more{
+    margin-top: 20px;
+}
+.about #more .col h4{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.about #more .col li {
+    list-style: none;
+    text-align: center;
+    margin-left: -15%;
+}
+.about #more .col{
+    font-size: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.about #more .middle{
+    border-right: 2px dashed #666;
+    border-left: 2px dashed #666;
+}
+
+/*for small size media*/
+@media (min-width: 768px) {
+    .brandname{
+        font-size: 20px;
+    }
+    .title a{
+        font-size: 14px;
+    }
+    .title #contact{
+        margin-right: 14px;
+    }
+    .project{
+        background-color: #eee;
+        padding: 6px 0;
+    }
+    .project #tab-list li{
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 16px;
+   
+    }
+    .title h1{
+        font-size: 36px;
+    }
+    .title p{
+        font-size: 21px;
+    }
+    .project h2{
+        font-size: 26px;
+    }
+    .skills h2{
+        font-size: 26px;
+    }
+    .about h2{
+        font-size: 26px;
+    }
+    .pages .page{
+        margin-top: 13px;
+    }
+    .pages .page h4{
+        font-size: 15px;
+    }
+    .pages .page p{
+        font-size: 10px;
+    }
+    .pages .page .list, .list2{
+        line-height: 22px;
+        font-size: 8px;
+    }
+    .pages .page p.link{
+        margin-top:10px;
+    }
+    .pages .page .text{
+        font-size: 16px;
+    }
+    .skills .skill-text div{
+        font-size: 6px;
+    }
+    .skills .skill-text p{
+        font-size: 10px;
+        line-height: 17px;
+        white-space: normal;
+        overflow: auto;
+        text-overflow: clip;
+    }
+    .about h3{
+        font-size: 20px;
+    }
+    .about p{
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .about #more .col h4{
+        font-size: 14px;
+    }
+    .about #more .col{
+        font-size: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+
+/*for medium size screen*/
+@media (min-width: 992px) {
+    .brandname{
+        font-size: 22px;
+    }
+    .title a{
+        font-size: 15px;
+    }
+    .title #contact{
+        margin-right: 18px;
+    }
+    .project{
+        background-color: #eee;
+        padding: 8px 0;
+    }
+    .project #tab-list li{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 40px;
+   
+    }
+    .title h1{
+        font-size: 46px;
+    }
+    .title p{
+        font-size: 22px;
+    }
+    .project h2{
+        font-size: 28px;
+    }
+    .skills h2{
+        font-size: 28px;
+    }
+    .about h2{
+        font-size: 28px;
+    }
+    .pages .page{
+        margin-top: 16px;
+    }
+    .pages .page h4{
+        font-size: 20px;
+    }
+    .pages .page p{
+        font-size: 13px;
+    }
+    .pages .page .list, .list2{
+        line-height: 26px;
+        font-size: 12px;
+    }
+    .pages .page p.link{
+        margin-top:40px;
+    }
+    .pages .page .text{
+        font-size: 18px;
+    }
+    .skills .skill-text div{
+        font-size: 8px;
+    }
+    .skills .skill-text p{
+        font-size: 12px;
+        line-height: 29px;
+    }
+    .about h3{
+        font-size: 22px;
+    }
+    .about p{
+        font-size: 13px;
+    }
+    .about #more .col h4{
+        font-size: 16px;
+    }
+    .about #more .col{
+        font-size: 12px;
+    }
+}
+
+/*for large size screen*/
+@media (min-width: 1200px){
+    .brandname{
+        font-size: 24px;
+    }
+    .title a{
+        font-size: 16px;
+    }
+    .title #contact{
+        margin-right: 24px;
+    }
+    .project{
+        background-color: #eee;
+        padding:0;
+    }
+    .project #tab-list li{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 65px;
+   
+    }
+    .title h1{
+        font-size: 60px;
+    }
+    .title p{
+        font-size: 24px;
+    }
+    .project h2{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .skills h2{
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .about h2{
+        margin: 0;
+        font-size: 30px;
+    }
+    .pages .page{
+        margin-top: 20px;
+    }
+    .pages .page h4{
+        font-size: 24px;
+    }
+    .pages .page p{
+        font-size: 16px;
+    }
+    .pages .page .list, .list2{
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .pages .page p.link{
+        margin-top:70px;
+    }
+    .pages .page .text{
+        font-size: 20px;
+    }
+    .skills{
+        padding: 0px;
+    }
+    .skills .skill-text div{
+        font-size: 10px;
+    }
+    .skills .skill-text p{
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .about h3{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    .about #more .col h4{
+        font-size: 18px;
+    }
+    .about #more .col{
+        font-size: 14px;
+    }
+}
